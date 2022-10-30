@@ -46,7 +46,7 @@
             <configuration>
                 <skipDockerBuild>false</skipDockerBuild>
                 <imageName>hello-springboot</imageName>
-                <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+                <dockerDirectory>${project.basedir}</dockerDirectory>
                 <resources>
                     <resource>
                         <targetPath>/</targetPath>
